@@ -1,0 +1,25 @@
+{
+  "name": "cecil/the-butler",
+  "description": "A ready to use static blog, powered by Cecil.",
+  "license": "MIT",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Arnaud Ligny",
+      "email": "arnaud@ligny.fr",
+      "homepage": "https://arnaudligny.fr",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "cecil/theme-hyde": "^2.4",
+    "cecil/theme-garth": "^1.9",
+    "cecil/theme-netlify": "^1.5",
+    "cecil/theme-netlifycms": "^1.7"
+  },
+  "config": {
+    "allow-plugins": {
+      "cecil/theme-installer": true
+    }
+  }
+}
